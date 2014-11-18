@@ -8,5 +8,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+
+    	<script>
+    		var myAge = 22;
+    		var myName = "Leonardo Rodrigues";
+    		var mySentence = "It's so cold outside.";
+
+    		console.log(myAge);
+    		console.log(myName);
+    		console.log(mySentence);
+
+    		console.log("It's so cold outside.");
+    		console.log(mySentence);
+
+    		console.log("My name is " + myName + ". I am " + myAge + " years old"); 
+
+    		var sum = 2 + 4;
+    		var birthYear = 2014 - myAge;
+
+    		console.log(sum);
+    		console.log(birthYear);
+
+    		console.log("I was born in " + birthYear + ".");
+
+    		console.log(3 !== 4);
+
+    		if (2 > 1){
+    			console.log("two is greater tha one!");
+    		}
+    		else{
+    			console.log("haha you don't know math");
+    		}
+
+    		var ageLimit = 30;
+
+    		if (myAge > ageLimit){
+    			console.log("I'm older than " + ageLimit +".");
+    		}
+    		else{
+    			console.log("I'm younger than " + ageLimit +".");
+    		}
+
+
+    		//You try it - 1
+    		console.log(5 === 5);
+			console.log(10 > 1);
+			console.log(4 < 5);
+
+			//You try it - 2
+			shoutingName = myName.toUpperCase();
+
+			//You try it - 3
+			var soLong = 'Supercalifragilisticexpialidocious';
+			console.log(soLong.length);
+
+			//You try it - 4
+			var team = ['Adam','Ethan','Josh','Nicholle','Leo'];
+
+			console.log(team[1]);
+			for (i= 1; i<team.length; i++){
+				console.log(i+1 +" - " + team[i]);
+			}
+
+    	</script>
     </body>
 </html>
